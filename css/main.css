@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+
+.hidden {
+	display: none;
+}
+
+#container
+{
+	max-width: 800px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+	
+}
+
+#title
+{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	color: #1E5763;
+}
+
+
+#infoCon
+{
+	height: auto;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	margin: 0 auto;
+	padding: 20px;
+	background-image: linear-gradient(#9c8584,#f3e3e3);
+	border: dashed 2px #1E5763;
+	border-radius: 20px;
+}
+
+#photo
+{
+	margin: 0 auto;
+}
+
+#photo1
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 300px;
+	width: 300px;
+}
+
+#name
+{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	height: auto;
+	margin-top: 20px;
+	margin: 0 auto;
+	color: #1E5763;
+}
+
+#bio
+{
+	margin: 0 auto;
+	margin-top: 10px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-align: center;
+	color: #1E5763;
+	line-height: 25px;
+}
+
+#buttonBox
+{
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#revealButton
+{
+	background-image: linear-gradient(#9c8584,#f3e3e3); 
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	padding: 10px;
+	color: #1E5763;
+	border: dashed 1px #1E5763;
+	border-radius: 20px;
+	margin: auto;
+}
+
+.footer-icons{
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.footer-icons a{
+  display: inline-block;
+
+  cursor: pointer;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
